@@ -11,8 +11,10 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route exact path='/' component={Login_page} />
-        <Route path='/Signup' component={Signup} />
+        {/* <Route exact path='/' component={Login_page} />
+        <Route path='/Signup' component={Signup} /> */}
+        <Route exact path ="/"><Login_page/></Route>
+        <Route exact path ="/Signup"><Signup/></Route>
       </Switch>
       
       <Footer />
