@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route exact path='/React_register/' component={Login_page} />
+        <Route exact path='/' component={Login_page} />
         <Route path='/Signup' component={Signup} />
       </Switch>
       
