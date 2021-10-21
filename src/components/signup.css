@@ -1,0 +1,57 @@
+.sign1{
+    background:white;
+    padding: 0.85em;
+ }
+ 
+ .form1
+ {
+     margin: 0 auto;
+     top: -70px;
+     width: 370px;
+     height: 500px;
+     text-align: center;
+     margin-top: 100px;
+     position: relative;
+     border-radius: 10px;
+     background-color: rgb(41, 41, 240);
+     padding: 5px;
+ }
+
+ #fname1
+ {
+     width:280px;
+     background-color:none;
+     border-right-style: none;
+     border-left-style: none;
+     border-color:rgb(41, 41, 240);
+     padding:12px 20px;
+     border-radius:10px;
+     cursor:pointer;
+ }
+ #fname1:focus{
+     outline: none;
+ }
+#btn-submit{
+    width:280px;
+    background-color:none;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    background-color: rgb(41, 41, 240);
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+ }
+ #only{
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 30px;
+ }
+ a{
+     text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  @media screen and (max-width: 800px) {
+    .form1{
+       background-color: white;
+    }
+}
