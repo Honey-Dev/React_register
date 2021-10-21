@@ -59,4 +59,13 @@
      .form{
         background-color: white;
      }
+     #foot a{
+        text-decoration: none;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(41, 41, 240);
+     }
+    #foot {
+         text-decoration: none;
+         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }   
  }
