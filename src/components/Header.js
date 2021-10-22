@@ -5,7 +5,7 @@ export default function Header() {
         <div>
             {
                 <nav class="nav">
-                    <a href="#" >BlogSite</a>
+                    <a href="#" id="blog">BlogSite</a>
                     <a href="#" >ABOUT</a>
                 </nav>
             }

@@ -16,7 +16,9 @@ body{
     font-size: 18px;
     color: white;
 }
-
+.nav #blog{
+    float: left;
+}
 .nav a:hover
 {
     background-color: white;
